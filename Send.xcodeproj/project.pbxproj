@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D62FDB5224FEE2E400DE0891 /* SendGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = D62FDB5124FEE2E400DE0891 /* SendGIF.gif */; };
 		D637C2C224C0E86F0049C278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637C2C124C0E86F0049C278 /* AppDelegate.swift */; };
 		D637C2C424C0E86F0049C278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637C2C324C0E86F0049C278 /* SceneDelegate.swift */; };
 		D637C2C624C0E86F0049C278 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637C2C524C0E86F0049C278 /* MessageRow.swift */; };
@@ -16,11 +15,11 @@
 		D637C2CE24C0E8700049C278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D637C2CC24C0E8700049C278 /* LaunchScreen.storyboard */; };
 		D664532824D0E4EE00A0D983 /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664532724D0E4EE00A0D983 /* MessageList.swift */; };
 		D664532A24D1BE2D00A0D983 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664532924D1BE2D00A0D983 /* Message.swift */; };
+		D6AE9DD624FEE4BD008D8788 /* SendGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = D6AE9DD524FEE4BD008D8788 /* SendGIF.gif */; };
 		D6C7F99424D32A9A00B4E4D9 /* NewMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C7F99324D32A9A00B4E4D9 /* NewMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D62FDB5124FEE2E400DE0891 /* SendGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = SendGIF.gif; path = ../../../../SendGIF.gif; sourceTree = "<group>"; };
 		D637C2BE24C0E86F0049C278 /* Send.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Send.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D637C2C124C0E86F0049C278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D637C2C324C0E86F0049C278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +30,7 @@
 		D637C2CF24C0E8700049C278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D664532724D0E4EE00A0D983 /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
 		D664532924D1BE2D00A0D983 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D6AE9DD524FEE4BD008D8788 /* SendGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SendGIF.gif; sourceTree = "<group>"; };
 		D6C7F99324D32A9A00B4E4D9 /* NewMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,12 +45,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D62FDB4E24FEDFDE00DE0891 /* Extra */ = {
+		D62FDB5724FEE44F00DE0891 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D62FDB5124FEE2E400DE0891 /* SendGIF.gif */,
+				D6AE9DD524FEE4BD008D8788 /* SendGIF.gif */,
 			);
-			path = Extra;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		D637C2B524C0E86F0049C278 = {
@@ -72,7 +72,7 @@
 		D637C2C024C0E86F0049C278 /* Send */ = {
 			isa = PBXGroup;
 			children = (
-				D62FDB4E24FEDFDE00DE0891 /* Extra */,
+				D62FDB5724FEE44F00DE0891 /* Images */,
 				D637C2C124C0E86F0049C278 /* AppDelegate.swift */,
 				D637C2C324C0E86F0049C278 /* SceneDelegate.swift */,
 				D664532924D1BE2D00A0D983 /* Message.swift */,
@@ -156,7 +156,7 @@
 				D637C2CE24C0E8700049C278 /* LaunchScreen.storyboard in Resources */,
 				D637C2CB24C0E8700049C278 /* Preview Assets.xcassets in Resources */,
 				D637C2C824C0E8700049C278 /* Assets.xcassets in Resources */,
-				D62FDB5224FEE2E400DE0891 /* SendGIF.gif in Resources */,
+				D6AE9DD624FEE4BD008D8788 /* SendGIF.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
