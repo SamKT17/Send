@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D62FDB5024FEDFEE00DE0891 /* SendGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = D62FDB4F24FEDFEE00DE0891 /* SendGIF.gif */; };
 		D637C2C224C0E86F0049C278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637C2C124C0E86F0049C278 /* AppDelegate.swift */; };
 		D637C2C424C0E86F0049C278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637C2C324C0E86F0049C278 /* SceneDelegate.swift */; };
 		D637C2C624C0E86F0049C278 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D637C2C524C0E86F0049C278 /* MessageRow.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D62FDB4F24FEDFEE00DE0891 /* SendGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = SendGIF.gif; path = ../../../../../Desktop/SendGIF.gif; sourceTree = "<group>"; };
 		D637C2BE24C0E86F0049C278 /* Send.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Send.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D637C2C124C0E86F0049C278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D637C2C324C0E86F0049C278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D62FDB4E24FEDFDE00DE0891 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				D62FDB4F24FEDFEE00DE0891 /* SendGIF.gif */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
 		D637C2B524C0E86F0049C278 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		D637C2C024C0E86F0049C278 /* Send */ = {
 			isa = PBXGroup;
 			children = (
+				D62FDB4E24FEDFDE00DE0891 /* Extra */,
 				D637C2C124C0E86F0049C278 /* AppDelegate.swift */,
 				D637C2C324C0E86F0049C278 /* SceneDelegate.swift */,
 				D664532924D1BE2D00A0D983 /* Message.swift */,
@@ -145,6 +156,7 @@
 				D637C2CE24C0E8700049C278 /* LaunchScreen.storyboard in Resources */,
 				D637C2CB24C0E8700049C278 /* Preview Assets.xcassets in Resources */,
 				D637C2C824C0E8700049C278 /* Assets.xcassets in Resources */,
+				D62FDB5024FEDFEE00DE0891 /* SendGIF.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
